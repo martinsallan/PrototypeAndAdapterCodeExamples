@@ -9,6 +9,6 @@ package br.edu.ifnmg.adapter;
 public class WeatherSystem {
 
     public void showTemperature(CelsiusTemperatureSensor sensor) {
-        System.out.printf("Temperatura atual: %.2f °C%n", sensor.getTemperatureInCelsius());
+        System.out.printf("Temperatura atual: %.2f Celcius%n", sensor.getTemperatureInCelsius());
     }
 }
